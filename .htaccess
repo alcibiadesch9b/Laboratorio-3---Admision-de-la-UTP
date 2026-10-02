@@ -1,0 +1,9 @@
+# Bloquea el acceso directo desde el navegador a las fotos subidas.
+# Las imágenes solo se sirven a través de mostrar_foto.php, en la raíz del proyecto.
+
+# Apache 2.4 (WAMP moderno)
+Require all denied
+
+# Apache 2.2 o anterior (descomenta si Require all denied no funciona en tu servidor)
+# Order allow,deny
+# Deny from all
